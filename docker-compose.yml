@@ -32,6 +32,8 @@ services:
     depends_on:
       - db
       - redis
+    environment:
+      - PYTHONPATH=/code
 
 volumes:
   pgdata:
