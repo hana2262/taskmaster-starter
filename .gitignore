@@ -9,4 +9,4 @@ __pycache__/
 .coverage
 dist/
 build/
-*.egg-info/
+*.egg-info/backups/
